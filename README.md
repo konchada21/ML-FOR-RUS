@@ -1,5 +1,5 @@
 # Machine Learning for prediction of elastic constants of isotropic material in Resonance Ultrasound Spectroscopy (RUS)
-
+Author - K. Prajwal Subudhi(konchada21@iitk.ac.in), C. Chandraprakash(chindamc@iitk.ac.in)
 ## Project Description
 This project applies machine learning and deep learning techniques to analyze and predict material properties using data obtained from Resonance Ultrasound Spectroscopy (RUS). The goal is to classify material types, including metals, polymers, and ceramics, and collect their material properties such as Young's modulus, Poisson's ratio, and density. The data is simulated to obtain the resonance frequencies of each material. Machine learning and deep learning models are applied to predict Young's modulus and Poisson's ratio based on inputs such as eigenfrequencies, density, and geometric parameters.
 
@@ -25,7 +25,7 @@ This project applies machine learning and deep learning techniques to analyze an
    - Test the model on a validation dataset and visualize the predictions.
    - Assess model performance by calculating metrics such as mean error, mean percentage error, and median percentage error.
 
-   
+Data is available in data foldeer, and the results(performance of model) also uploaded there.
 ## Installation
 To set up the project locally, follow these steps:
 

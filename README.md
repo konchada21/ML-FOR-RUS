@@ -16,16 +16,16 @@ This project applies machine learning and deep learning techniques to analyze an
    - Use MATLAB LiveLink to generate the eigenfrequencies of each sample for various dimensions of cuboids and cylinders.
    - Collect the final dataset of material properties and resonance frequencies for each material class and each shape.
 
+2. **Reverse Model**  
+   i. **Model Training**:  
+   - Apply the machine learning model XGBoost and the deep learning model Artificial Neural Network (ANN) to train the model using density, geometric parameters, and resonance frequencies as inputs, with Young's modulus and Poisson's ratio as outputs.
+   - Tune hyperparameters (such as learning rate and epochs) to improve model performance and reduce error.
 
-2. **Reverse Model**:  
-  i. **Model Training**:  
-   - Applied machine learning models (Random Forest, Support Vector Machines, etc.) and deep learning models to predict Young's modulus and Poisson's ratio from the extracted features.
+   ii. **Testing and Results Visualization**:
+   - Test the model on a validation dataset and visualize the predictions.
+   - Assess model performance by calculating metrics such as mean error, mean percentage error, and median percentage error.
 
-6. **Model Evaluation**:  
-   - Evaluated model performance based on metrics such as accuracy, mean absolute error (MAE), and mean squared error (MSE).
-
-7. **Results Visualization**:  
-   - Visualized the prediction 
+   
 ## Installation
 To set up the project locally, follow these steps:
 
